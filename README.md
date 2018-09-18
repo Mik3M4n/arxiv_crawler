@@ -16,7 +16,7 @@ To download arxiv metadata, you can refer to the [arxiv API](https://arxiv.org/h
 This code allows to fetch all arrive metadata available via the [arxiv advanced search](https://arxiv.org/search/advanced). See the section "Output" for a more detailed description of the fields available. 
 An example output can be found in the /output folder with a jupiter notebook to visualise data. Here’s an example:
 
-![My image](Mik3M4n.github.com/arxiv/arxiv_ML_query.png)
+![Example output](https://github.com/Mik3M4n/arxiv_crawler/blob/master/arxiv_ML_query.png)
 
 Note that scrapy launches asynchronous requests, so the data should be then sorted manually, as done in the notebook.
 
