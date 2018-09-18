@@ -7,7 +7,7 @@ It retrieves all results of an advanced arxiv search, easily saved in .csv (or .
 ## DISCLAIMER 
 
 This code is written for practice only, to learn how to use scrapy to recursively parse an advanced arxiv search. It *should not be used*, as explained in the [arxiv.org guidelines](https://arxiv.org/help/robots). Running it will likely result in you ip being blocked from the arxiv.
-To download arxiv metadata, you can refer to the [arxiv API](https://arxiv.org/help/api/index)
+
 
 
 
@@ -46,7 +46,7 @@ scrapy crawl arxiv -a search_query=<arxiv_search_query> -a field=<field> -a date
 Example of valid parameters and format:
 
 * <arxiv_search_query>: machine\ learning
-* < field >: the field where to look for (ex: 'all', 'ti', 'abs')
+* <field>: the field where to look for (ex: 'all', 'ti', 'abs')
 * <from_date>/<to_date>:  2018-09-13
 * <output_file>: output/my_search.csv
 
